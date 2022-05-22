@@ -1,0 +1,696 @@
+html {
+    scroll-behavior: smooth;
+}    
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  .body{
+      background-color: rgb(0, 235, 12);
+      padding: 2em;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      max-width: 1700px;
+
+  }
+
+  .CONTENEDORMADRE{
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      background-color: blue;
+  }
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(255, 130, 13);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .HeaderContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 85%;
+    justify-content: space-between;
+  }
+
+  .topnav-list {
+      display: flex;
+      align-content: center;
+      align-items: center;
+  }
+ 
+.topnav-big{
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.Cajita {
+    display: flex;
+    background-color: darkorange; 
+    float: left;
+    max-width: 1567px;
+    padding: 1.5em;
+}
+.Cajita h2 {
+        font-size: 2em;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+
+.cajadeTexto {
+
+    padding: 1.3em;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    
+}
+.titulo {
+    background-color: aqua;
+    text-align: center;
+}
+
+.foto1{
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    align-content: center;
+
+}
+.foto1 img{
+    border-radius: 100%;
+    width: 400px;
+}
+
+.parag p{
+    text-align: center;
+}
+.listtext a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.segundacaja {
+    background-color: aqua;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.imag2 img {
+    width: 280px;
+}
+
+.grancajados {
+    display: flex;
+    align-content: space-between;
+}
+.cajasecund{
+    margin: 2em;
+    padding: 2em;
+    background-color: darkgoldenrod;
+    flex: .5;
+}
+
+.cajasecund p{
+    font-size: .7em;
+}
+
+
+.body {
+  position: relative;
+  height: 100%;
+}
+
+.body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ 
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .body{
+            max-width: 480px;
+        }    
+
+        .Cajita{
+            color:rgb(0, 0, 0);
+        }
+        .HeaderContainer {
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .topnav a {
+            font-size:1em ;
+            background-color: rgb(104, 0, 0);
+            height: 50px;
+            padding: auto;
+        }
+       
+        .topnav {
+            display: flex;
+            flex-direction: column;
+            padding: .2em;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .topnav-big a {
+            background-color: rgb(231, 231, 231);
+            margin: .2em;
+            color: black;
+        }
+
+        .Cajita {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            background-color: rgb(173, 173, 173); 
+            max-width: 480px; 
+        }
+
+        .Cajita h2 {
+            font-size: 2em;
+            font-family: 'Bebas Neue', cursive;
+        }
+            
+        
+        .cajadeTexto {
+        
+            padding: 2em;
+            background-color: rgb(1, 105, 36);
+        }
+        
+        .foto1{
+            display: flex;
+            padding: .2em;
+            align-items: center;
+            align-content: center;
+        
+        }
+        .foto1 img{            
+            border-radius: 0%;
+            width: 200px;
+        }
+        .listtext a{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin: 1em;
+        }
+        
+        .segundacaja {
+            background-color: aqua;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+        }
+        
+        .imag2 img {
+            width: 280px;
+        }
+        
+        .grancajados {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .cajasecund{
+            margin: 2em;
+            padding: 2em;
+            background-color: darkgoldenrod;
+            flex: .5;
+        }
+        
+        .cajasecund p{
+            font-size: .7em;
+            flex: .5;
+        }
+
+  }
+
+  /* segundomediaq */
+
+
+
+  @media only screen and (min-width: 481px) and (max-width: 600px) {
+    .body{
+         max-width: 600px;
+        min-width: 481px;
+    }    
+        .HeaderContainer {
+            background-color: blue;
+            display: flex;
+            flex-direction:column;
+        }
+        
+        .topnav a {
+            font-size:.8em ;
+            background-color: darkorchid;
+            height: 50px;
+            padding: auto;
+        }
+       
+        .topnav {
+            display: flex;
+            padding: .2em;
+            margin: .15em;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .topnav-big a {
+            
+            color: red;
+            margin: 1em;
+    
+        }
+        .topnav-list a{
+            font-size: .7em;
+        }
+
+        .Cajita {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            background-color: rgb(42, 252, 0); 
+            max-width: 600; 
+        
+        }
+        .cajadeTexto {
+            padding: 2em;
+            background-color: rgb(243, 2, 2);
+        }
+        
+        .foto1{
+            display: flex;
+            padding: 2em;
+            align-items: center;
+            align-content: center;
+        
+        }
+        .foto1 img{
+            border-radius: 5%;
+            width: 300px;
+        }
+        .segundacaja {
+            background-color: aqua;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+        }
+        
+        .imag2 img {
+            width: 425px;
+        }
+        
+        .grancajados {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .cajasecund{
+            margin: 2em;
+            padding: 2em;
+            background-color: darkgoldenrod;
+            flex: .5;
+        }
+        
+        .cajasecund p{
+            font-size: .7em;
+            flex: .5;
+        }
+    }
+
+
+
+/* tercermedia*/
+
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+
+    .body{
+        max-width: 767px;
+    }    
+    .Cajita{
+        background-color:blue;
+    }
+    .HeaderContainer {
+        background-color: blue;
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .topnav a {
+        font-size:.8em ;
+        background-color: darkorchid;
+        height: 50px;
+        padding: auto;
+    }
+   
+    .topnav {
+        display: flex;
+        padding: .2em;
+        margin: .15em;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .topnav-big a {
+        
+        color: red;
+        margin: .5em;
+
+    }
+    .topnav-list a{
+        font-size: .8em;
+    }
+    .Cajita {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-color: rgb(42, 252, 0); 
+        max-width: 757; 
+    
+    }
+    .cajadeTexto {
+    
+        padding: 2em;
+        background-color: rgb(243, 2, 2);
+    }
+    
+    .foto1{
+        display: flex;
+        padding: 2em;
+        align-items: center;
+        align-content: center;
+    
+    }
+    .foto1 img{
+        border-radius: 25%;
+        width: 350px;
+    }
+    .segundacaja {
+        background-color: aqua;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+    }
+    
+    .imag2 img {
+        width: 550px;
+    }
+    
+    .grancajados {
+        display: flex;
+        align-items: center;
+    }
+    .cajasecund{
+        margin: 2em;
+        padding: 2em;
+        background-color: darkgoldenrod;
+        flex: .5;
+    }
+    
+    .cajasecund p{
+        font-size: .7em;
+    }
+
+    
+}
+
+/*cuartomedia*/
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .body{
+        max-width:1024px;
+    }
+    
+    .HeaderContainer {
+        background-color: blue;
+        display: flex;
+        flex-direction:row;
+    }
+    
+    .topnav a {
+        font-size:1em ;
+        background-color: darkorchid;
+        height: 3em;
+        padding: auto;
+    }
+   
+    .topnav {
+        display: flex;
+        padding: .2em;
+        margin: .15em;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .topnav-big a {
+        
+        color: red;
+        margin: 1em;
+
+    }
+    .topnav-list a{
+        font-size: .8em;
+
+    }
+    .Cajita {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-color: rgb(252, 0, 210); 
+        max-width: auto; 
+    
+    }
+    .cajadeTexto {
+    
+        padding: 2em;
+        background-color: rgb(148, 3, 3);
+    }
+    
+    .foto1{
+        display: flex;
+        padding: 2em;
+        align-items: center;
+        align-content: center;
+    
+    }
+    .foto1 img{
+        border-radius:15%;
+        width: 500px;
+    }
+    .segundacaja {
+        background-color: aqua;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+    }
+    
+    .imag2 img {
+        width: 725px;
+    }
+    
+    .grancajados {
+        display: flex;
+        align-content: space-between;
+    }
+    .cajasecund{
+        margin: 2em;
+        padding: 2em;
+        background-color: darkgoldenrod;
+        flex: .5;
+    }
+    
+    .cajasecund p{
+        font-size: .7em;
+    }
+    
+}
+
+/*quinto media*/
+
+
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 2560px) {
+
+    .topnav a {
+        font-size:1.2emem ;
+        background-color: rgb(104, 0, 0);
+        height: 50px;
+        padding: auto;
+    }
+.topnav-list {
+margin-right:2em;
+
+}
+.topnav-big{
+    margin-left: 2em;
+}
+.Cajita {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(252, 0, 210); 
+    max-width: 1500px; 
+
+}
+.cajadeTexto {
+
+    padding: 2em;
+    background-color: rgb(39, 236, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.titulo {
+    background-color: aqua;
+}
+
+.foto1{
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    align-content: center;
+
+}
+.foto1 img{
+    border-radius: 100%;
+    width: 300px;
+}
+.segundacaja {
+    background-color: aqua;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.imag2 img {
+    width: 1000px;
+}
+
+.grancajados {
+    display: flex;
+    align-content: space-between;
+}
+.cajasecund{
+    margin: 2em;
+    padding: 2em;
+    background-color: darkgoldenrod;
+    flex: .5;
+}
+
+.cajasecund p{
+    font-size: .7em;
+}
+}
